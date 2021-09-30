@@ -1,0 +1,14 @@
+<form [formGroup]="form">
+  <input type="text" formControlName="type">
+  <input type="number" formControlName="ageInDays">
+  <input type="number" formControlName="daysInLactation">
+  <input type="checkbox" formControlName="deletable">
+  <input type="number" formControlName="endDate">
+  <input type="number" formControlName="eventId">
+  <input type="number" formControlName="healthIndex">
+  <input type="number" formControlName="lactationNumber">
+  <input type="number" formControlName="minValueDateTime">
+  <input type="number" formControlName="reportingDateTime">
+  <input type="number" formControlName="startDateTime">
+  <button (click)="onDelete()">DELETE</button>
+</form>
